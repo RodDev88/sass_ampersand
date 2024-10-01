@@ -1,0 +1,23 @@
+$color-primary: red;
+
+.hero-section {
+    height: 100vh;
+    background-image: url(https://placedog.net/950/640/bn);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    h1 {
+        color: $color-primary;
+        font-size: xx-large;
+        font-style: italic;
+    }
+
+}
+
+.img {
+    filter: blur(10px);
+    &:hover {
+        filter: blur(0px);
+    }
+}
